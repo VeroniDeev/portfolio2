@@ -1,0 +1,29 @@
+{
+    "welcome": {
+        "role": "Fullstack and AI Developper"
+    },
+    "presentation": {
+        "hello": "Hi There",
+        "description": "I am a Fullstack developer with a specific expertise in Artificial Intelligence. My passion for web development as a whole, combined with my specialization in AI, allows me to explore and create innovative solutions for various projects. I am excited about integrating AI algorithms into my Fullstack projects, thereby offering smarter and more interactive digital experiences."
+    },
+    "project": {
+        "see": "See More",
+        "create-webgpu-app": {
+            "name": "Create-Webgpu-App",
+            "description": "Create-webgpu-app is a library for generating web-based applications using WebGPU."
+        },
+        "cat-dog-detector": {
+            "name": "Cat Dog Detector",
+            "description": "Dogs Cats Detector is an online web application to detect cats or dogs."
+        }
+    },
+    "contact": {
+        "contactme": "Contact Me",
+        "description": "Do you have any questions, collaboration opportunities, or simply want to discuss your next project? Feel free to contact me!",
+        "first": "First Name",
+        "last": "Last Name",
+        "email": "Email",
+        "message": "Message",
+        "send": "Send Message"
+    }
+}
