@@ -1,8 +1,7 @@
-import { FC, RefObject } from "react";
-import { FunctionComponent } from "react";
+import { FC } from "react";
 
 export interface competenceList {
-  icon: FunctionComponent;
+  icon: any;
   name: string;
 }
 

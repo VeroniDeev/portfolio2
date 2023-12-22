@@ -25,7 +25,6 @@ const Presentation = () => {
       gsap.from(img, {
         scrollTrigger: {
           trigger: container,
-          markers: true,
           start: "top 70%",
         },
         x: "-100%",
@@ -37,7 +36,6 @@ const Presentation = () => {
       gsap.from(pres, {
         scrollTrigger: {
           trigger: container,
-          markers: true,
           start: "top 70%",
         },
 
