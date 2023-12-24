@@ -9,7 +9,7 @@ gsap.registerPlugin(ScrollToPlugin);
 gsap.registerPlugin();
 
 const Welcome = () => {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <section

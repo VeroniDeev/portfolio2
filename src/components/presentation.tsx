@@ -1,4 +1,4 @@
-import me from "../assets/images/pic/me.png";
+import me from "../assets/images/pic/me.webp";
 import { useTranslation } from "react-i18next";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -6,7 +6,7 @@ import { useRef, useEffect } from "react";
 gsap.registerPlugin(ScrollTrigger);
 
 const Presentation = () => {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   const imgRef = useRef(null);
   const presRef = useRef(null);
   const containerRef = useRef(null);
@@ -25,7 +25,7 @@ const Presentation = () => {
       gsap.from(img, {
         scrollTrigger: {
           trigger: container,
-          start: "top 70%",
+          start: "top 80%",
         },
         x: "-100%",
         ease: "expo.inOut",
@@ -36,7 +36,7 @@ const Presentation = () => {
       gsap.from(pres, {
         scrollTrigger: {
           trigger: container,
-          start: "top 70%",
+          start: "top 80%",
         },
 
         x: "100%",
@@ -49,29 +49,27 @@ const Presentation = () => {
   return (
     <section
       id="presentation"
-      className="w-full h-full flex items-center 2xl:flex-row 2xl:justify-around xs:flex-col xs:justify-normal"
+      className="w-full h-full flex items-center 2xl:flex-row md:justify-around xs:flex-col xs:justify-normal"
       ref={containerRef}
     >
-      <div className="left-part w-2/4 h-2/4 flex justify-center">
+      <div className="left-part w-2/4 h-2/4 md:flex md:justify-center">
         <img
           src={me}
           alt="Picture of me"
           className="me rounded-xl opacity-100"
           draggable="false"
-          width="auto"
-          height="100%"
           ref={imgRef}
         />
       </div>
       <div
-        className="right-part 2xl:w-2/4 h-4/6 flex items-center opacity-100 xs:w-11/12"
+        className="right-part md:w-2/4 2xl:h-4/6 flex items-center opacity-100 xs:w-11/12 xs:h-2/4"
         ref={presRef}
       >
-        <div className="right-part-container flex flex-col items-center 2xl:justify-around 2xl:h-3/6 xs:h-full xs:justify-center">
-          <h2 className="tracking-wider font-bold 2xl:text-6xl xs:text-2xl">
+        <div className="right-part-container flex flex-col items-center md:justify-around md:h-3/6 xs:h-full xs:justify-start">
+          <h2 className="tracking-wider font-bold 2xl:text-6xl xs:text-md md:text-4xl">
             {t("presentation.hello")}
           </h2>
-          <p className="tracking-wider 2xl:w-5/6 2xl:text-left 2xl:text-lg xs:text-xs xs:w-full xs:text-center">
+          <p className="tracking-wider 2xl:w-5/6 md:text-left 2xl:text-left lg:text-lg xs:text-xs xs:w-full xs:text-center ">
             {t("presentation.description")}
           </p>
         </div>

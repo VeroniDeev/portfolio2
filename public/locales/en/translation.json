@@ -1,4 +1,14 @@
 {
+    "head": {
+        "home_title": "Home",
+        "description": "Zoubheir is a Fullstack developer specializing in Artificial Intelligence (AI). Passionate about crafting innovative technological solutions, I am committed to developing high-performing and creative digital experiences by skillfully combining comprehensive web development with advancements in AI."
+    },
+    "error": {
+        "oops": "Oops! The page you're looking for couldn't be found.",
+        "indication": "It seems that the link you followed is incorrect or the page has been deleted.",
+        "should_do": "You can return to the ",
+        "homepage": "home page"
+    },
     "welcome": {
         "role": "Fullstack and AI Developper"
     },

@@ -5,8 +5,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FC } from "react";
 import { ChevronRightIcon, ChevronLeftIcon } from "@heroicons/react/16/solid";
-import WebgpuPic from "../assets/images/pic/projects/create-webgpu-pic.png";
-import DogCatPicture from "../assets/images/pic/projects/dog-cat-pic.png";
+import WebgpuPic from "../assets/images/pic/projects/create-webgpu-pic.webp";
+import DogCatPicture from "../assets/images/pic/projects/dog-cat-pic.webp";
 
 interface projectStructure {
   name: string;
@@ -25,7 +25,7 @@ const projectName: projectStructure[] = [
 ];
 
 const Project = () => {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   interface CustomArrowProps {
     onClick?: React.MouseEventHandler<HTMLDivElement>;

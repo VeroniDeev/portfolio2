@@ -1,4 +1,14 @@
 {
+    "head": {
+        "home_title": "Accueil",
+        "description": "Zoubheir est un développeur Fullstack et spécialisé en Intelligence Artificielle (IA). Passionné par la création de solutions technologiques innovantes, je m'engage à développer des expériences numériques performantes et créatives, en combinant habilement le développement web complet et les avancées de l'IA."
+    },
+    "error": {
+        "oops": "Oops ! La page que vous recherchez est introuvable.",
+        "indication": "Il semblerait que le lien que vous avez suivi soit incorrect ou que la page ait été supprimée.",
+        "should_do": "Vous pouvez retourner sur la ",
+        "homepage": "page d'accueil"
+    },
     "welcome": {
         "role": "Développeur Fullstack et IA"
     },

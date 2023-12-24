@@ -2,7 +2,7 @@ import Mail from "./mail";
 import { useTranslation } from "react-i18next";
 
 const Contact = () => {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   return (
     <section
       id="contact"
