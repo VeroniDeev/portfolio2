@@ -112,7 +112,7 @@ const mobileCompetences: competenceList[] = [
 const Competences = () => {
   return (
     <section className="w-full 2xl:h-full xs:h-auto">
-      <div className="all-card-container h-full 2xl:grid 2xl:grid-cols-2 gap-11 justify-items-center xs:flex xs:flex-col xs:items-center">
+      <div className="all-card-container h-full lg:grid lg:grid-cols-2 gap-11 justify-items-center xs:flex xs:flex-col xs:items-center">
         <CompetenceCard
           name="Frontend"
           skill={frontendCompetences}

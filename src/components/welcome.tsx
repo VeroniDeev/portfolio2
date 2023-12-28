@@ -1,12 +1,6 @@
 import Lottie from "lottie-react";
 import frame from "../assets/images/icons/swipBounce.json";
 import { useTranslation } from "react-i18next";
-import gsap from "gsap";
-import { ScrollToPlugin } from "gsap/all";
-
-gsap.registerPlugin(ScrollToPlugin);
-
-gsap.registerPlugin();
 
 const Welcome = () => {
   const { t } = useTranslation();

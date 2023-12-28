@@ -49,7 +49,7 @@ const Presentation = () => {
   return (
     <section
       id="presentation"
-      className="w-full h-full flex items-center 2xl:flex-row md:justify-around xs:flex-col xs:justify-normal"
+      className="w-full h-full flex items-center lg:flex-row md:justify-around xs:flex-col xs:justify-normal"
       ref={containerRef}
     >
       <div className="left-part w-2/4 h-2/4 md:flex md:justify-center">
@@ -62,14 +62,14 @@ const Presentation = () => {
         />
       </div>
       <div
-        className="right-part md:w-2/4 2xl:h-4/6 flex items-center opacity-100 xs:w-11/12 xs:h-2/4"
+        className="right-part md:w-2/4 lg:h-4/6 flex items-center opacity-100 xs:w-11/12 xs:h-2/4"
         ref={presRef}
       >
         <div className="right-part-container flex flex-col items-center md:justify-around md:h-3/6 xs:h-full xs:justify-start">
-          <h2 className="tracking-wider font-bold 2xl:text-6xl xs:text-md md:text-4xl">
+          <h2 className="tracking-wider font-bold 2xl:text-6xl lg:text-4xl xs:text-md md:text-4xl">
             {t("presentation.hello")}
           </h2>
-          <p className="tracking-wider 2xl:w-5/6 md:text-left 2xl:text-left lg:text-lg xs:text-xs xs:w-full xs:text-center ">
+          <p className="tracking-wider lg:w-5/6 md:text-left lg:text-left lg:text-sm xs:text-xs xs:w-full xs:text-center ">
             {t("presentation.description")}
           </p>
         </div>

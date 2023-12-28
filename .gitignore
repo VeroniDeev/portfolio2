@@ -25,3 +25,4 @@ dist-ssr
 
 # Deploy
 deploy.sh
+.env
